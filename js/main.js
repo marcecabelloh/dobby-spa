@@ -3,8 +3,6 @@
       $('.slider').slider();
     });
         
-
-
 //plugin que permite q dropdown se deslice al momento de pasar el mouse por encima 
  $('.dropdown-button').dropdown({
       inDuration: 300,
