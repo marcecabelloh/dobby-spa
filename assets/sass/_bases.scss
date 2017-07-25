@@ -3,13 +3,57 @@
 	margin:0;
 }
 
+.nav-wrapper{
+   width: 100%;
+   text-align: center;
+    li {
+     float: none;
+     display: inline-block;
+    .enlaces:hover{
+	color:$color_fondo;
+	 }
+   }
+ }
+
 .contenedor-uno{
 	background-color:$color_fondo;
 	width:100%;
+	margin-top: -40px;
+	.img-circle{
+	position: relative;
+    top: -100px;
+    z-index: 100;
+    border: 5px solid $color_borde;
+	}
+}
+
+a.read-more{
+	text-decoration:none;
+	color:black;
+	background-color:$color_borde;
 }
 
 .contenedor-dos{
-	background-color:$color_navbar;
-	width:100%;
-	color:white;
+	padding: 50px;
+	 .texto-rojo{
+ 	color:$texto-rojo;
+ 	}
 }
+
+.contenedor-tres{
+	background-color:$color-cafe;
+	width:100%;
+	color:$color_fondo;
+	padding:40px;
+}
+
+ .footer{
+ 	background-color:$footer;
+ 	color:$color_fondo;
+ 	padding:50px;
+ }
+
+ .img{
+ 	border-radius:6px;
+ }
+
