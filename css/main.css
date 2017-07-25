@@ -6815,6 +6815,10 @@ a.read-more {
   background-color: #2F1F1F;
   color: #E9E0B7;
   padding: 50px; }
+  .footer .redes-sociales {
+    background-color: #E9E0B7;
+    border: 5px solid #DBBE86;
+    width: 80px; }
 
 .img {
   border-radius: 6px; }

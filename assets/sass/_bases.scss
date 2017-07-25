@@ -51,7 +51,12 @@ a.read-more{
  	background-color:$footer;
  	color:$color_fondo;
  	padding:50px;
- }
+ 	.redes-sociales{
+	background-color:$color-fondo;
+	border: 5px solid $color_borde;
+	width: 80px;
+   }
+}
 
  .img{
  	border-radius:6px;
