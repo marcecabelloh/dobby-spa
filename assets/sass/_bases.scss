@@ -19,11 +19,14 @@
 	background-color:$color_fondo;
 	width:100%;
 	margin-top: -40px;
+	padding-bottom:20px;
 	.img-circle{
 	position: relative;
     top: -100px;
     z-index: 100;
     border: 5px solid $color_borde;
+    margin:40px;
+    width:200px;
 	}
 }
 
@@ -31,6 +34,8 @@ a.read-more{
 	text-decoration:none;
 	color:black;
 	background-color:$color_borde;
+	padding:9px;
+	margin-top:40px;
 }
 
 .contenedor-dos{

@@ -6788,17 +6788,22 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .contenedor-uno {
   background-color: #E9E0B7;
   width: 100%;
-  margin-top: -40px; }
+  margin-top: -40px;
+  padding-bottom: 20px; }
   .contenedor-uno .img-circle {
     position: relative;
     top: -100px;
     z-index: 100;
-    border: 5px solid #DBBE86; }
+    border: 5px solid #DBBE86;
+    margin: 40px;
+    width: 100px; }
 
 a.read-more {
   text-decoration: none;
   color: black;
-  background-color: #DBBE86; }
+  background-color: #DBBE86;
+  padding: 9px;
+  margin-top: 40px; }
 
 .contenedor-dos {
   padding: 50px; }
