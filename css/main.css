@@ -6794,9 +6794,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     position: relative;
     top: -100px;
     z-index: 100;
-    border: 5px solid #DBBE86;
-    margin: 40px;
-    width: 100px; }
+    border: 5px solid #DBBE86; }
 
 a.read-more {
   text-decoration: none;
@@ -6815,6 +6813,8 @@ a.read-more {
   width: 100%;
   color: #E9E0B7;
   padding: 40px; }
+  .contenedor-tres .img-uno {
+    margin-left: -60px; }
 
 .footer {
   background-color: #2F1F1F;

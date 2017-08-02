@@ -1,6 +1,7 @@
 //plugins materialize
  $(document).ready(function(){
       $('.slider').slider();
+      $(".button-collapse").sideNav();
     });
         
 //plugin que permite q dropdown se deslice al momento de pasar el mouse por encima 
@@ -15,3 +16,4 @@
       stopPropagation: false // Stops event propagation
     }
   );
+
